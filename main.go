@@ -23,7 +23,7 @@ func main() {
 		fmt.Printf("%v \n", a)
 	}
 
-	// count find and count each character
+	// find and count each character
 	for i := range input {
 		var a string = string(byte(input[i]))
 		findCharacter(characterContainer, a)
